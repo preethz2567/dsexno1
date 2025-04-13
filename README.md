@@ -21,6 +21,35 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102824.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102838.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102850.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102900.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102910.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102919.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102930.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102942.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 102957.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103006.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103016.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103025.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103038.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103051.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103102.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103112.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103122.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103135.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103146.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103155.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103208.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103217.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103228.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103239.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103250.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103302.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103313.png>)
+            ![alt text](<output screenshots/Screenshot 2025-04-13 103323.png>)
+   
+
 # Result
-          <<include your Result here>>
+          Thus we have carried out data cleansing and removed the outliers by detection using IQR and Z Score method.
