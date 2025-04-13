@@ -22,36 +22,6 @@ STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
             
-
-![Output](output_screenshots/Screenshot 2025-04-13 102824.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102838.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102850.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102900.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102910.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102919.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102930.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102942.png)
-![Output](output_screenshots/Screenshot 2025-04-13 102957.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103006.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103016.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103025.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103036.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103051.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103102.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103120.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103133.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103135.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103146.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103155.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103208.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103217.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103227.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103239.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103250.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103302.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103313.png)
-![Output](output_screenshots/Screenshot 2025-04-13 103323.png)
-   
-
+![alt text](<Screenshot 2025-04-13 102824.png>)
 # Result
           Thus we have carried out data cleansing and removed the outliers by detection using IQR and Z Score method.
