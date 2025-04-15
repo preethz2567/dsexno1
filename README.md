@@ -1,4 +1,8 @@
 # Exno:1
+
+### NAME : PREETHI D
+### REGISTER NUMBER : 212224040250
+
 Data Cleaning Process
 
 # AIM
@@ -21,35 +25,212 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-            
-![Screenshot 2025-04-13 102824](https://github.com/user-attachments/assets/d4a9f1fa-d059-446f-a1e0-9a624516bf4c)
-![Screenshot 2025-04-13 102838](https://github.com/user-attachments/assets/455ced41-5285-4f3c-8d97-74bdd878008f)
-![Screenshot 2025-04-13 102850](https://github.com/user-attachments/assets/a4008720-9584-4ff6-93df-4bbde4e061df)
-![Screenshot 2025-04-13 102900](https://github.com/user-attachments/assets/dd533b5a-0520-4a8e-b7f5-b269910c8713)
-![Screenshot 2025-04-13 102910](https://github.com/user-attachments/assets/7b38aa80-98ee-457c-a69e-434795ae7360)
-![Screenshot 2025-04-13 102919](https://github.com/user-attachments/assets/d515e8c3-75e4-4822-ab34-0dff4b78ef9d)
-![Screenshot 2025-04-13 102930](https://github.com/user-attachments/assets/2a3a1ed4-e48b-4d53-a742-9c5399504d1b)
-![Screenshot 2025-04-13 102942](https://github.com/user-attachments/assets/89dec782-b595-44e4-b8b2-a5aca3ea7681)
-![Screenshot 2025-04-13 102957](https://github.com/user-attachments/assets/31750b68-781a-4f8f-81b6-a27c5f988a9a)
-![Screenshot 2025-04-13 103006](https://github.com/user-attachments/assets/1c002d89-8801-4d4d-8084-7015c283dd01)
-![Screenshot 2025-04-13 103016](https://github.com/user-attachments/assets/faba09a3-7fb3-43fb-b8f2-e18f5080d6a6)
-![Screenshot 2025-04-13 103025](https://github.com/user-attachments/assets/ff7b0935-e029-4309-a390-14dff45ee684)
-![Screenshot 2025-04-13 103038](https://github.com/user-attachments/assets/92604b12-bf78-4c4f-89e4-2ab1edf7ba76)
-![Screenshot 2025-04-13 103051](https://github.com/user-attachments/assets/3ba22f32-9d22-4cfe-9dd6-e0528ae02e68)
-![Screenshot 2025-04-13 103102](https://github.com/user-attachments/assets/78b364eb-d7fc-4e4e-88c5-a67fe0d57f27)
-![Screenshot 2025-04-13 103112](https://github.com/user-attachments/assets/07e2028f-a4ed-4bf9-8a66-ec6a0b96c5fd)
-![Screenshot 2025-04-13 103122](https://github.com/user-attachments/assets/1fb0d9ef-8328-4d66-8383-6bb2b8a8937b)
-![Screenshot 2025-04-13 103135](https://github.com/user-attachments/assets/aec26892-650e-45be-bbd2-557d458fbc3a)
-![Screenshot 2025-04-13 103146](https://github.com/user-attachments/assets/3d36e280-b880-4447-a7ac-037f078d96c2)
-![Screenshot 2025-04-13 103155](https://github.com/user-attachments/assets/218e76d3-0ab6-479b-a5d6-0b82fc36bbf9)
-![Screenshot 2025-04-13 103208](https://github.com/user-attachments/assets/abf2e706-f99d-46ff-818f-cd7f493f7815)
-![Screenshot 2025-04-13 103217](https://github.com/user-attachments/assets/b6429ec1-0a83-47c8-9b78-c1861aed2da9)
-![Screenshot 2025-04-13 103228](https://github.com/user-attachments/assets/7cbc790b-d17c-498b-abec-cedd5d6f0771)
-![Screenshot 2025-04-13 103239](https://github.com/user-attachments/assets/3d04bb49-9ff5-495c-b42f-0f3f842775cc)
-![Screenshot 2025-04-13 103250](https://github.com/user-attachments/assets/f3d7bb03-16a8-4ca5-b437-f70374d6a313)
-![Screenshot 2025-04-13 103302](https://github.com/user-attachments/assets/f50a8b34-65e0-48ec-a700-53028e76a88d)
-![Screenshot 2025-04-13 103313](https://github.com/user-attachments/assets/b4c88b76-afad-4ed7-84c3-826616c37dc4)
-![Screenshot 2025-04-13 103323](https://github.com/user-attachments/assets/96a243c9-71d2-4014-b4a0-bbf2248d14ae)
+ ``` python
+
+import pandas as pd
+df=pd.read_csv("/content/SAMPLEIDS (1).csv")
+df
+
+```
+![image](https://github.com/user-attachments/assets/51555fb0-4eb0-4061-a6ff-b173fe377fc0)
+
+``` python
+
+df.info()
+
+```
+![image](https://github.com/user-attachments/assets/b328ea97-e1ce-4e0c-8060-ba9a39c829dd)
+
+``` python
+
+df.describe()
+
+```
+![image](https://github.com/user-attachments/assets/fc811825-8d43-4ef7-9e59-0899f80ea5fa)
+
+``` python
+
+df.shape
+
+```
+![image](https://github.com/user-attachments/assets/99f40f7a-48d6-47a4-ab2a-818326c23121)
+
+``` python
+
+df.isnull()
+
+```
+![image](https://github.com/user-attachments/assets/ba868fe8-a85d-467b-b857-8a2c8d6b76f3)
+
+```python
+
+df.notnull()
+
+```
+![image](https://github.com/user-attachments/assets/76a7c038-fab7-42e7-a7a4-cff2dbff8dac)
+
+``` python
+df.dropna(axis=0)
+```
+
+![image](https://github.com/user-attachments/assets/643e2ebc-b6b5-46f2-978f-6ec48bb2fbd6)
+
+``` python
+
+df.dropna(axis=1)
+
+```
+![image](https://github.com/user-attachments/assets/a52fbf5e-7a6e-4915-90b5-3eca1c1df35d)
+
+``` python
+
+dfs=df[df['TOTAL']>270]
+dfs
+
+```
+![image](https://github.com/user-attachments/assets/608532fe-443e-47a3-8290-a1f8ec5e8442)
+
+``` python
+
+dfs=df[df['NAME'].str.startswith(('A','C'))&(df['TOTAL']>250)]
+dfs
+
+```
+
+![image](https://github.com/user-attachments/assets/88862cdc-3219-4bf4-9be8-8464ac67a0b7)
+
+``` python
+
+df.iloc[0:4,1:4]
+
+```
+![image](https://github.com/user-attachments/assets/4f1b0198-ebd2-4c5b-89cd-6fa58741dbab)
+
+![image](https://github.com/user-attachments/assets/70cb0bcc-5e82-4532-ad02-7ba07f53d2bf)
+
+``` python
+
+dff=df.fillna(0)
+dff
+
+```
+![image](https://github.com/user-attachments/assets/edc3525c-5f96-457e-acea-8d43fc92c2f6)
+
+![image](https://github.com/user-attachments/assets/03dca230-f9a4-4e44-9412-447f3bb49243)
+
+![image](https://github.com/user-attachments/assets/77d16ac9-631f-4613-ad03-731c344cd075)
+
+``` python
+
+df['TOTAL'].fillna(value=df['TOTAL'].mean())
+
+```
+![image](https://github.com/user-attachments/assets/7c943a6d-950d-4562-ae65-ff85a409cfda)
+
+``` python
+
+df.isnull().sum()
+
+```
+
+![image](https://github.com/user-attachments/assets/f523b52a-f310-4226-b23c-e63ed90f0d0e)
+
+``` python
+
+df.dropna(how='any')
+
+```
+![image](https://github.com/user-attachments/assets/079c9370-a076-4078-adf4-276d75807d82)
+![image](https://github.com/user-attachments/assets/70f6e545-72af-43aa-bbd5-500024521729)
+![image](https://github.com/user-attachments/assets/36370d24-689e-46b3-99ee-65df994a47a1)
+
+``` python
+
+mn=df.TOTAL.mean()
+print(mn)
+
+df.fillna(mn,inplace=True)
+df
+
+```
+![image](https://github.com/user-attachments/assets/f93ff58b-7a7c-44ff-967b-8edc8b6ce042)
+![image](https://github.com/user-attachments/assets/44103bb7-00b0-4a50-9a8c-95b815c0f234)
+
+
+``` python
+
+import seaborn as sns
+sns.heatmap(df.isnull(),yticklabels=False,annot=True)
+
+```
+
+![image](https://github.com/user-attachments/assets/9c5c1109-2ade-4f4f-bf87-47daaaf3610d)
+
+
+``` python
+
+df.dropna(inplace = True)
+sns.heatmap(df.isnull(),yticklabels=False,annot=True)
+
+```
+
+![image](https://github.com/user-attachments/assets/4ee0a189-9270-4104-b210-1853b69feebd)
+
+
+```python
+
+OUTLIER DETECTION
+import pandas as pd
+import seaborn as sns
+import numpy as np
+age = [1,3,28,27,25,92,30,39,40,50,26,24,29,94]
+af = pd.DataFrame(age)
+af
+
+```
+![image](https://github.com/user-attachments/assets/c67400e2-adf9-4f71-be8d-9f451cf22f52)
+
+``` python
+
+sns.boxplot(data=af)
+
+```
+![image](https://github.com/user-attachments/assets/a78b0b7e-dbd8-4a27-87a3-68977a0fc3e9)
+
+![image](https://github.com/user-attachments/assets/be5e6010-d7de-4cdb-8aa4-26e7a1df600a)
+
+![image](https://github.com/user-attachments/assets/f4a1f3c7-97a7-4d7f-89fe-60c99aa73470)
+
+![image](https://github.com/user-attachments/assets/c901b506-8b89-4d23-958f-75056b2767fb)
+
+![image](https://github.com/user-attachments/assets/373a0f20-4549-4de9-94e1-6bc210fd7c08)
+
+
+``` python
+
+sns.boxplot(data=af)
+
+```
+![image](https://github.com/user-attachments/assets/fe202f10-c2f4-4e2b-9d2e-3184d66f87b5)
+![image](https://github.com/user-attachments/assets/e13c857c-1cb8-4057-b80c-77219d9a609b)
+
+
+``` python
+Z SCORE METHOD
+
+```
+![image](https://github.com/user-attachments/assets/300236b7-1adb-49ef-9594-5bacf623da58)
+
+```
+ data={'weight':[12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,202,72,75,78,81,84,232,87,90,93,96,99,258]}
+df=pd.DataFrame(data)
+df
+
+```
+![image](https://github.com/user-attachments/assets/d6baf798-3279-4498-be50-215905268e3f)
+
+![image](https://github.com/user-attachments/assets/a462f340-fd27-445e-84aa-264f98df2e74)
+
 
 # Result
           Thus we have carried out data cleansing and removed the outliers by detection using IQR and Z Score method.
